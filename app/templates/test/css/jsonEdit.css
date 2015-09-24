@@ -1,0 +1,98 @@
+.jsonEdit_textinput {} .jsonEdit_Label {} .jsonEdit_Description {} .jsonEdit_textArea {} .jsonEdit_Header {} .jsonEdit_controlLabel {}
+/*Json编辑器*/
+
+.input_jsonedit {}
+.input_jsonedit .jsonEdit_Header {
+	height: 30px;
+	display:inline-block;
+	line-height: 30px;
+}
+.input_jsonedit .jsonEdit_Header:before,
+.input_jsonedit .jsonEdit_Header:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+.input_jsonedit .jsonEdit_Header span{float: left;margin-right: 10px;}
+.input_jsonedit .jsonEdit_Header .btn-group {
+	float: left;
+}
+.glyphicon-chevron-down:before {
+	content: "\e114";
+}
+.input_jsonedit input {
+	width: 90%;
+	padding-left: 4px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.input_jsonedit label {
+	font-size: 14px;
+	margin: 5px;
+	font-weight: 100;
+}
+.jsonEdit_textArea {
+	  width: 90%;
+  height: 100px;
+  padding-left: 4px;
+}
+.input_jsonedit .btn-group .btn{
+	  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+font-size: 12px;
+  font-weight: 100;
+    height: 25px;
+  line-height: 1px;
+  }
+.input_jsonedit input[type=checkbox]:checked::before {
+  color: gray;
+  content: -webkit-image-set(url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkMDgyNGUwMi1mYTM0LTBlNGMtYTE1ZS1kZTQwNWM2YmI2MDYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUZGMDg2QUNENEYzMTFFM0JEM0Y4QzNFQjRFMjlEQjciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUZGMDg2QUJENEYzMTFFM0JEM0Y4QzNFQjRFMjlEQjciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjRhODQ1ZDIxLTY3N2QtZGM0YS1hM2FkLTFhNzAzNWU2M2ExZiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpkMDgyNGUwMi1mYTM0LTBlNGMtYTE1ZS1kZTQwNWM2YmI2MDYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6VkY7wAAAA4ElEQVR42mL8//8/AynActbLeCBlwkKCBi4gNQWI44A4lIVITapAahUQGwCx9/E08W0sRGiyA1KrgVgMiGNAmkDiTFBJXiBmwqLJF0htg2qqB2paCpNjAkoGAumbQFyMpikAahM3EK8HampClgc5VQmIJYG4C6hYD0gnArEtEINMZwfih0Ccg+4aRlB0ADUUAdm9ULHzQCwCxLJQfgjQtrVYNUKdVgqyFU1+KVBTDLZAgwcIUEE3kKpCkvsAxI24QhslJIGa24FULZQ7E8i/TZRGqOYWIFUOxAvxxS9AgAEAwNJFtluZQmAAAAAASUVORK5CYII=) 1x);
+  font-size: 13px;
+  height: 0px;
+  left: 1px;
+  top: -2px;
+  position: absolute;
+}
+.input_jsonedit .jsonEdit_addproperty_list{
+	
+}
+.input_jsonedit .jsonEdit_IndentedPanel{
+	  margin: 5px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color:#F0F0F0;
+  -webkit-transition: 1s;
+}
+
+
+/* colorpicker */
+.colorpicker{width:356px;height:176px;overflow:hidden;position:absolute;background:url(../images/jsonedit/colorpicker_background.png);font-family:Arial, Helvetica, sans-serif;display:none;z-index: 99;}
+.colorpicker_color{width:150px;height:150px;left:14px;top:13px;position:absolute;background:#f00;overflow:hidden;cursor:crosshair;}
+.colorpicker_color div{position:absolute;top:0;left:0;width:150px;height:150px;background:url(../images/jsonedit/colorpicker_overlay.png);}
+.colorpicker_color div div{position:absolute;top:0;left:0;width:11px;height:11px;overflow:hidden;background:url(../images/jsonedit/colorpicker_select.png);margin:-5px 0 0 -5px;}
+.colorpicker_hue{position:absolute;top:13px;left:171px;width:35px;height:150px;cursor:n-resize;}
+.colorpicker_hue div{position:absolute;width:35px;height:9px;overflow:hidden;background:url(../images/jsonedit/colorpicker_indic.gif) left top;margin:-4px 0 0 0;left:0px;}
+.colorpicker_new_color{position:absolute;width:60px;height:30px;left:213px;top:13px;background:#f00;}
+.colorpicker_current_color{position:absolute;width:60px;height:30px;left:283px;top:13px;background:#f00;}
+.colorpicker input{background-color:transparent;border:1px solid transparent;position:absolute;font-size:10px;font-family:Arial, Helvetica, sans-serif;color:#898989;top:4px;right:11px;text-align:right;margin:0;padding:0;height:11px;}
+.colorpicker_hex{position:absolute;width:72px;height:22px;background:url(../images/jsonedit/colorpicker_hex.png) top;left:212px;top:142px;}
+.colorpicker_hex input{right:6px;}
+.colorpicker_field{height:22px;width:62px;background-position:top;position:absolute;}
+.colorpicker_field span{position:absolute;width:12px;height:22px;overflow:hidden;top:0;right:0;cursor:n-resize;}
+.colorpicker_rgb_r{background-image:url(../images/jsonedit/colorpicker_rgb_r.png);top:52px;left:212px;}
+.colorpicker_rgb_g{background-image:url(../images/jsonedit/colorpicker_rgb_g.png);top:82px;left:212px;}
+.colorpicker_rgb_b{background-image:url(../images/jsonedit/colorpicker_rgb_b.png);top:112px;left:212px;}
+.colorpicker_hsb_h{background-image:url(../images/jsonedit/colorpicker_hsb_h.png);top:52px;left:282px;}
+.colorpicker_hsb_s{background-image:url(../images/jsonedit/colorpicker_hsb_s.png);top:82px;left:282px;}
+.colorpicker_hsb_b{background-image:url(../images/jsonedit/colorpicker_hsb_b.png);top:112px;left:282px;}
+.colorpicker_submit{position:absolute;width:51px;height:22px;background:url(../images/jsonedit/colorpicker_submit.png) top;left:293px;top:142px;overflow:hidden;cursor:pointer;}
+.colorpicker_focus{background-position:center;}
+.colorpicker_hex.colorpicker_focus{background-position:bottom;}
+.colorpicker_submit.colorpicker_focus{background-position:bottom;}
+.colorpicker_slider{background-position:bottom;}
+/* colorpicker ie6 hack */
+.colorpicker_color div{_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/jsonedit/colorpicker_overlay.png',sizingMethod='crop');}
+.colorpicker_color div div{_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/jsonedit/colorpicker_select.png',sizingMethod='crop');}

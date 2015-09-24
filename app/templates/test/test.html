@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件测试</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/textEditor.css">
+	<link rel="stylesheet" href="./css/jsonEdit.css">
+	<style>
+		html,body{
+			height: 100%;
+		}		
+
+	</style>
+</head>
+<body>
+	<iframe id="editFrame" style="float: left;border: #000 1px solid;width: calc(100% - 355px);height: 100%;overflow:auto;" srcdoc="">
+
+	</iframe>	
+	
+	<div id="editBar" style="    float: right;height: 100%;width: 350px;border: #000 1px solid;">
+
+
+	</div>
+
+	<script type="text/javascript" src="./lib/async.js"></script>	
+	<script type="text/javascript" src="./lib/jquery-2.1.4.min.js"></script>
+ 	<script type="text/javascript" src="./lib/sea.js"></script>
+	<script type="text/javascript" src="./lib/jsonEditor.js"></script>	
+	<script type="text/javascript" src="./lib/jquery.colorpicker.js"></script>
+	<script>
+        JSONEditor.defaults.options.theme = 'bootstrap2';
+        seajs.config({
+        	base:"./lib"
+        });
+
+		seajs.use("./lib/load",function(load){
+				load.init();
+		});
+
+
+	</script>
+
+</body>
+</html>

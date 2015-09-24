@@ -1,0 +1,3 @@
+//接受参数Josn字符串类型
+需要Url encode 
+{"name":"我就是一个测试而已","name_en":"test","dependent_data":["55f970897f8b9afd088b456d","55f7e42d7f8b9af9088b4573"],"type":"sidebarLink","description":"我就是一个测试而已我就是一个测试而已","date":"2015-09-17 00:08:30","dependent_js":[],"dependent_css":[],"svnPath":"/Users/zhengqiguang/Work/other/temp/","dir":"D:/test3"}
